@@ -125,7 +125,6 @@ section button img {
     top: 311.57px;
 
     
-    background-image: url(images/photo1.png);
     background-size: cover;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
