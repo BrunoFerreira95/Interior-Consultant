@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Devchallenges</title>
+    <link rel="stylesheet/sass" href="global.css">
+    <link rel="stylesheet" href="home.css">
+  </head>
+  <body>
+    
+   <header>
+     <div>
+       <p>THIS INTERIOR</p>
+       <a id="mobile-menu" href="javascript:void(0)" onclick="myFunction()">
+         <img src="./images/menu_white_24dp.svg" alt="Menu">
+       </a>
+       <div id="myLinks">
+        <a href="javascript:void(0)" onclick="myFunction()">
+          <img src="./images/close_white_24dp.svg" alt="Fechar">
+        </a>
+        <a href="">Home</a>
+        <a href="">Collection</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+       </div>
+      </div>
+      <nav>
+       <a href="">Home</a>
+       <a href="">Collection</a>
+       <a href="">About</a>
+       <a href="">Contact</a>
+      </nav>
+   </header>
+   <section class="news">
+     <h1>Modern interior</h1>
+     <p>
+      A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.
+     </p>
+     <button>
+       Read more
+       <img src="./images/trending_flat_white_24dp.svg" alt="Seta">
+      </button><br/>
+      <img class="fotoFundo">
+
+      <div class="card">
+        <div>
+          <img src="./images/photo2.png" alt="Aliza Webber">
+        </div>
+        <div>
+          <h2>Aliza Webber</h2>
+          <span>Interior designer</span>
+        </div>
+        <p>Designed in 2020 by Aliza Webber</p>
+      </div>
+   </section>
+   <footer>
+     <p>
+      created by BrunoFerreira95 - devChallenges.io
+     </p>
+   </footer>
+   <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+  </body>
+</html>

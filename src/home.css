@@ -1,0 +1,327 @@
+body {
+    background: #181719;
+}
+
+header div{
+    width: 100%;
+    height: 100%;
+}
+
+header img {
+    top: 27px;
+    right: 0;
+    padding: 0.5rem;
+    position: absolute;
+    width: 3rem;
+}
+
+header p {
+    padding: 0.5rem;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 20px;
+    top: 27px;
+    
+    font-family: 'Crimson Pro';
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+#myLinks {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #181719; /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    display: none;
+}
+
+#myLinks a {
+    color: #FFFFFF;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+
+    font-family: 'Montserrat';
+    padding: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-family: 'Lora';
+    font-weight: 500;
+    line-height: 46px;
+
+    position: absolute;
+    width: 274px;
+    height: 46px;
+    left: 12px;
+    top: 88px;
+}
+
+section p {
+    position: absolute;
+    width: 250px;
+    height: 85px;
+    left: 12px;
+    top: 159px;
+
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 17px;
+}
+
+section button {
+    position: absolute;
+    width: 119px;
+    height: 17px;
+    top: 269px;
+
+    font-weight: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: none;
+}
+
+section button img {
+    width: 1.5rem;
+    margin-left: 10px;
+    color: #FFFFFF;
+
+    
+}
+
+.fotoFundo {
+    position: absolute;
+    width: 96%;
+    height: 279.34px;
+
+    top: 311.57px;
+
+    
+    background-image: url(images/photo1.png);
+    background-size: cover;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.card {
+    position: absolute;
+    width: 290px;
+    height: 138px;
+    left: 52px;
+    top: 536px;
+    background: #181719;
+
+    display: flex;
+
+    color: #FFFFFF;
+}
+
+.card img {
+    margin: 1rem;
+    width: 62.2px;
+    height: 52.68px;
+    left: 62.24px;
+    top: 543.32px;
+
+    border-radius: 50%;
+}
+
+.card h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.card span {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #828282;
+}
+
+section .card p {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 85px;
+    left: 12px;
+    top: 65px;
+
+    color: #FFFFFF;
+    font-family: 'Lora';
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+footer p{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A9A9A9;
+
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 44px;
+    top: 735px;
+
+    padding-bottom: 2rem;
+}
+
+@media(min-width: 1080px) {
+    #mobile-menu {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5rem;
+    }
+
+    header p {
+        left: 85px;
+        top: 50px;
+    }
+
+    nav {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 37px;
+    }
+
+    nav a {
+        color: #FFFFFF;
+        text-decoration: none;
+        position: relative;
+    
+        display: flex;
+        align-items: baseline;
+    
+        font-family: 'Montserrat';
+        padding: 2rem;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 61px;
+    
+        position: absolute;
+        width: 365px;
+        height: 616px;
+        left: 77px;
+        top: 381px;
+    }
+
+    section p {
+        width: 410px;
+        height: 145px;
+        left: 77px;
+        top: 482px;
+    
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    section button {
+        width: 150px;
+        height: 22px;
+        left: 77px;
+        top: 675px;
+    
+        font-size: 18px;
+        line-height: 22px;
+        border: none;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        background: none;
+    }
+
+    .fotoFundo {
+        width: 821px;
+        height: 586px;
+        left: 600px;
+        top: 221px;
+    
+        
+        background-image: url(images/photo1.png);
+        background-size: cover;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .card {
+        width: 410px;
+        height: 189px;
+        left: 921px;
+        top: 722px;
+        background: #181719;
+    
+        display: flex;
+    
+        color: #FFFFFF;
+    }
+
+    footer p{
+        left: 577px;
+        top: 950px;
+
+        width: 500px;
+    }
+}
+
+@media(max-width: 1080px) {
+    nav {
+        display: none;
+    }
+
+    #mobile-menu {
+    }
+    
+    header img {
+        display: block;
+        top: 27px;
+        right: 0;
+        position: absolute;
+    }
+}
